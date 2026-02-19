@@ -12,7 +12,7 @@ public class armstrong{
 
 			temp=temp/10;
 			count++;
-			System.out.println(count);
+			//System.out.println(count);
 		}
 		while(temp1>0){
 			int temp3= temp1%10;
@@ -25,8 +25,6 @@ public class armstrong{
 
 			sum=sum+j;
 		}
-
-			System.out.println(" no is armstrong"+sum);
 		
                if(sum == no){
 		System.out.println(" no is armstrong");
