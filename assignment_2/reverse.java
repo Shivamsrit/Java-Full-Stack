@@ -12,7 +12,7 @@ public class reverse{
 			reverse = reverse*10+temp;
 			
 		}
-		System.out.println(" reverse digit is = "+sum);
+		System.out.println(" reverse digit is = "+reverse);
 		sc.close();
 	}
 }
