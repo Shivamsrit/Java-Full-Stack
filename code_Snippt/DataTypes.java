@@ -7,11 +7,13 @@ public class DataTypes{
 	System.out.println(c);
 // It gives a compile-time error because, by default, the ternary operator returns an int type. It checks the condition and then stores the value. The compiler says there is a possible loss of data (int → byte).
 */
-	int a=5   0;
+	/* int a=5   0;
 	int b=    50;
 	int z=50    ;
 	float f=123.76 86f;
-	double d=1 2 3 4;
+	double d=1 2 3 4; */
+
+// space are not allowed 
 	
 	}	
 }
