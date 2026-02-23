@@ -57,7 +57,9 @@ public class project {
 			System.out.println("Do you want to play again(y/n)");
 			ch=sc.next().charAt(0);
 
-			System.out.println("\n\n");
+			System.out.println("---------------------------------------------------------------------------------------------------\n");
+
+			
 		}	
 		System.out.println("Game Over!\n");
 
