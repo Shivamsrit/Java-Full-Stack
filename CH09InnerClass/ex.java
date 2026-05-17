@@ -1,0 +1,11 @@
+package InnerClass;
+
+import java.io.PrintStream;
+
+public class ex {
+    public static void main(String[] args) {
+        System.out.println("hi");
+        PrintStream out = System.out;
+        out.println("hi");
+    }
+}
