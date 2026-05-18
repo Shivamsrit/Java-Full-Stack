@@ -1,4 +1,4 @@
-package InnerClass;
+package CH09InnerClass;
 
 import java.io.PrintStream;
 

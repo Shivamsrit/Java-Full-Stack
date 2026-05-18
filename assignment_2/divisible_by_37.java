@@ -1,4 +1,6 @@
-public class divisible_by_5{
+package assignment_2;
+
+public class divisible_by_37{
 
 	public static void main(String []args){
 		

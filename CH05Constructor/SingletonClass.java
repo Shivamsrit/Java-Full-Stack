@@ -1,4 +1,4 @@
-package Constructor;
+package CH05Constructor;
 
 // Singleton Design Pattern requirement
 // * Static reference variable required same class

@@ -1,4 +1,4 @@
-package String;
+package CH04String;
 //import java.util.*;
 
 public class Length {

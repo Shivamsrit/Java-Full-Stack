@@ -1,4 +1,4 @@
-package String;
+package CH04String;
 
 public class CodeSnippet {
     public static void main(String[] args) {

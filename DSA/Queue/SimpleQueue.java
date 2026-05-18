@@ -1,4 +1,4 @@
-package DSA.Queue.Queue;
+package DSA.Queue;
 
 public class SimpleQueue {
     int[] arr = new int[100];

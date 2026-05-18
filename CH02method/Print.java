@@ -1,4 +1,4 @@
-package method;
+package CH02method;
 
 import java.util.*;
 

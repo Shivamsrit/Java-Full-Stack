@@ -1,4 +1,4 @@
-package Stack;
+package DSA.Stack;
 
 public class main {
     public static void main(String[] args) {

@@ -1,3 +1,3 @@
-package StaticBlock;
+package CH05Constructor.StaticBlock;
 
 

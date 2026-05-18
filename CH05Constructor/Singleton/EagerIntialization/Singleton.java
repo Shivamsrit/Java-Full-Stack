@@ -1,4 +1,4 @@
-package Singleton.EagerIntialization;
+package CH05Constructor.Singleton.EagerIntialization;
 
 public class Singleton {
     public static Singleton object = new Singleton();

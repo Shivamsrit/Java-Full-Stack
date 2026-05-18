@@ -1,4 +1,4 @@
-package Encapsulation;
+package CH07Encapsulation;
 
 public class Bank {
     private Integer amount ;

@@ -1,5 +1,4 @@
-package Constructor;
-import java.util.*;
+package CH05Constructor;
 
 public class Main {
     

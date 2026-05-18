@@ -1,4 +1,4 @@
-package Constructor;
+package CH05Constructor;
 
 public class Constructor {
     int a ;

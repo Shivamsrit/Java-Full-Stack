@@ -1,4 +1,4 @@
-package Singleton.lazyIntialization;
+package CH05Constructor.Singleton.lazyIntialization;
 
 public class Singleton {
     public static Singleton object;

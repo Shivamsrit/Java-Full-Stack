@@ -1,3 +1,4 @@
+package assignment_2;
 
 public class divisible_by_5{
 

@@ -1,4 +1,4 @@
-package Ch01Polymorphism;
+package Ch06Polymorphism;
 
 public class A extends B{
     String s1 = "hello boss";

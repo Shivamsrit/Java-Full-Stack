@@ -1,4 +1,4 @@
-package DSA.Queue.Queue;
+package DSA.Queue;
 
 public class main {
     public static void main(String[] args) {

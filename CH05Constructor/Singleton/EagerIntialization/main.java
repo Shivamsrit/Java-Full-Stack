@@ -1,4 +1,4 @@
-package Singleton.EagerIntialization;
+package CH05Constructor.Singleton.EagerIntialization;
 
 public class main {
     public static void main(String[] args) {

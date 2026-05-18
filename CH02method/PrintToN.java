@@ -1,4 +1,4 @@
-package method;
+package CH02method;
 
 public class PrintToN {
     public static void main(String[] args) {
