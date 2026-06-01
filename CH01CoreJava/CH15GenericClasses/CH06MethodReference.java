@@ -24,7 +24,17 @@ interface inter{
     void print(int i);
 }
 
-public class CH05MethodReference {
+interface inter2{
+    sample getSample(String s);
+}
+class sample{
+    String s ;
+    sample(String s){
+        this.s = s;
+        System.out.println("sample constructor");
+    }
+}
+public class CH06MethodReference {
     public static void m1(){
         for(int i =0 ; i< 10 ; i++){
             System.out.println("child thread Created");
@@ -36,15 +46,18 @@ public class CH05MethodReference {
     }
     public static void main(String[] args) throws InterruptedException{
 
- //  Using Method Reference binded the method call run() of Interface Runnable.
-        Runnable r = CH05MethodReference::m1;
+
+        // 1. Method Reference
+
+        //  Using Method Reference binded the method call run() of Interface Runnable.
+        Runnable r = CH06MethodReference::m1;
 
         Thread t = new Thread(r);
         t.start();
 
         inter i1 = x -> System.out.println("By lambda expression");
 
-        inter i2 = new CH05MethodReference()::Print;
+        inter i2 = new CH06MethodReference()::Print;    // Method Reference
 
         i1.print(10);
         i2.print(10);
@@ -53,6 +66,16 @@ public class CH05MethodReference {
             System.out.println("Main Thread Created");
             Thread.sleep(2000);
         }
+
+
+        // 2. Constructor reference
+
+        inter2 i3 = x -> new sample(x);
+        i3.getSample("From Lambda expression....");
+
+        inter2 i4 = sample::new;                            // Constructor Reference
+        i4.getSample("From Constructor Reference...");
+
     }
 
 }

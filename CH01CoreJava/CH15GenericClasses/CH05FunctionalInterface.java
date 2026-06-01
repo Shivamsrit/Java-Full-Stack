@@ -33,7 +33,7 @@ package CH01CoreJava.CH15GenericClasses;
  */
 
 
-public class FunctionalInterface {
+public class CH05FunctionalInterface {
 }
 
 /*
@@ -54,7 +54,7 @@ public class FunctionalInterface {
  * │    Interface        │   Method        │   Description    │
  * ├─────────────────────┼─────────────────┼──────────────────┤
  * │ Function<T,R>       │ R apply(T)      │ T → R            │
- * │ Consumer<T>         │ void accept(T)  │ T → void         │
+ * │ Consumer<T>         │ v  │ T → void         │
  * │ Supplier<T>         │ T get()         │ void → T         │
  * │ Predicate<T>        │ boolean test(T) │ T → boolean      │
  * │ UnaryOperator<T>    │ T apply(T)      │ T → T            │
