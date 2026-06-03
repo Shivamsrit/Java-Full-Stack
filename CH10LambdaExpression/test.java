@@ -16,4 +16,19 @@ public class test extends demo {
     public void set() {
         System.out.println("hello");
     }
+
+    @Override
+    public void print() {
+
+    }
+
+    @Override
+    public void print1() {
+
+    }
+
+    @Override
+    public void print2() {
+
+    }
 }
