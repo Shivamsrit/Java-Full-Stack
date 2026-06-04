@@ -9,6 +9,9 @@ import java.util.function.Consumer;
 // public void for each (java,util,function.Consumer<? Super E> );
 // public abstract void accept( T t);
 class MyConsumer implements Consumer<String> {
+
+
+    // logic coded by other developer
     @Override
     public void accept(String s) {
         System.out.println("MyConsumer called " );
