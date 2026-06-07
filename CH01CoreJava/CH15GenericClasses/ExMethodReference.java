@@ -16,3 +16,28 @@ class MyConsumer implements Consumer<String> {
     }
 
 }
+public class ExMethodReference {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("Shivam");
+        list.add("Goli");
+        list.add("Abhishek");
+        list.add("Saransh");
+
+
+        //Traditional Apporach
+        MyConsumer c = new MyConsumer();
+        list.forEach(c);
+        System.out.println();
+
+        // Lambda Expression
+        list.forEach(lists-> System.out.println(lists));
+        System.out.println();
+
+        // Method Reference
+        list.forEach(System.out::println);
+        System.out.println();
+
+
+    }
+}
