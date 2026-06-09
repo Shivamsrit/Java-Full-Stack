@@ -21,7 +21,7 @@ class MyThread extends Thread{
     MyThread(Display d, String name){
         this.d = d;
         this.name =  name;
-
+        
     }
     @Override
     public void run(){
@@ -43,6 +43,7 @@ public class Synco  {
         Display d2 = new Display();
         MyThread ob1 = new MyThread(d1,"Sahin");
         MyThread ob2 = new MyThread(d2,"Dhoni");
+
 
     }
 
