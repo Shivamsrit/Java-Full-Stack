@@ -33,12 +33,12 @@ public class Synco  {
 
     public static void main(String[] args) {
 //        Display d = new Display();
-//        case1: Synchronized work only if two thred work only same object
+//        case1: Synchronized work only if two thread work only same object
 //        MyThread ob1 = new MyThread(d,"Sahin");
 //        MyThread ob2 = new MyThread(d,"Dhoni");
 //        ob1.start();
 //        ob2.start();
- //        case 2 : if not synchronized not work
+ //      case 2 : if not synchronized not work
         Display d1 = new Display();
         Display d2 = new Display();
         MyThread ob1 = new MyThread(d1,"Sahin");
