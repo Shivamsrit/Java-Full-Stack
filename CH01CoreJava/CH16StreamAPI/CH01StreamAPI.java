@@ -21,7 +21,7 @@ public class CH01StreamAPI {
    * data from file , hence both java.io.Streams and Java.util.Streams both are different.
 
 
-* ============================================================
+ * ============================================================
  * JAVA STREAMS — TWO COMPLETELY DIFFERENT THINGS
  * ============================================================
  *
@@ -60,3 +60,11 @@ public class CH01StreamAPI {
  * ============================================================
  *
  *
+ *      Difference Between Collection and Stream?
+ *      => If we want to represent a group of individual object as a single entity then we should go for collection.
+ *       * If we want to process a group of Objects from the collection Then we should go for Streams.
+ *       * We Can create a stream of object to the Collection by using Stream () Method of Collection interface Stream()
+ *          method is a default method added to the collection in 1.8V.
+ *
+ *
+ */
