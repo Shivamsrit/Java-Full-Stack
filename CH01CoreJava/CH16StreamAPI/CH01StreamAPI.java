@@ -1,4 +1,6 @@
 package CH16StreamAPI;
+import java.util.*;
+import java.util.stream.*;
 
 /*
         Stream API
@@ -9,7 +11,43 @@ package CH16StreamAPI;
 
  */
 
+import java.util.ArrayList;
+
 public class CH01StreamAPI {
+    public static void main(String[] args) {
+        ArrayList<Integer> arraylist = new ArrayList<Integer>();
+        arraylist.add(0);
+        arraylist.add(5);
+        arraylist.add(10);
+        arraylist.add(15);
+        arraylist.add(20);
+        arraylist.add(30);
+
+        System.out.println(arraylist);
+
+        //   in java 1.7V
+        ArrayList<Integer> even = new ArrayList<>();
+        for(Integer i : arraylist)
+            if(i % 2 == 0)
+                even.add(i);
+        System.out.println(even);
+
+        // In java 1.8V we use Streams
+        // 1. Configuration     al.stream()
+        // 2. Processing        filter(lambda expression ex i-> i%2==0).collect(
+        // if want to fillter the object into a collection use fillter.
+        List<Integer> evenList = arraylist.stream().filter(i -> i % 2 == 0).collect(Collectors.toList());
+
+        evenList.forEach(System.out::println);
+
+        // In jdk 1.8V we use Streams
+        // Map :- for every object if a new object has to be converted then go for map.
+        // public abstract <R> java.util.stream.Stream<R> map(java.util.function.Function<? super T, ? extends R>);
+        List<Integer> arr = arraylist.stream().map(obj->obj*2).collect(Collectors.toList());
+        arr.forEach(System.out::println);
+        
+
+    }
 }
 
 
