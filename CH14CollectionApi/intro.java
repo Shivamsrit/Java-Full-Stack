@@ -100,6 +100,3 @@ package CH14CollectionApi;
 //eg: import java.util.*;
 //->In collection whatever data you add it stores as an object.
 
-import java.util.Set;
-
-Set
