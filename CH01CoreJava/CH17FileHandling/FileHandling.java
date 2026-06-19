@@ -22,3 +22,26 @@ ackage CH17FileHandling;
  * - Checking file properties (exists, readable, writable)
  * - Working with directories
  */
+
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class FileHandling {
+    public static void main(String[] args) throws IOException {
+        File f = new File("C:\\Java Full stack\\CH01CoreJava\\CH17FileHandling\\txt.txt");
+        FileReader fr = new FileReader(f);
+
+        // read one character and stores in character Array
+        char[] buf = new char[(int) f.length()];
+        fr.read(buf);
+
+        for(char data : buf) {
+            System.out.print(data);
+        }
+        fr.close();
+    }
+
+}
