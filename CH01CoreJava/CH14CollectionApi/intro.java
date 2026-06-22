@@ -100,3 +100,8 @@ package CH01CoreJava.CH14CollectionApi;
 //eg: import java.util.*;
 //->In collection whatever data you add it stores as an object.
 
+public class intro {
+    public static void main(String[] args) {
+
+    }
+}

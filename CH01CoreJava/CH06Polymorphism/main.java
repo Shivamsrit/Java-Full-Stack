@@ -1,4 +1,4 @@
-package CH01CoreJava.Ch06Polymorphism;
+package CH01CoreJava.CH06Polymorphism;
 
 public class main {
 

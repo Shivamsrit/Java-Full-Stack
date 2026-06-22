@@ -56,8 +56,10 @@ import java.lang.annotation.Target;
 
 }
 
-//target
-//retention Policy
+//target:- to specify what the notation can be used ex. ( * ElementType.TYPE.CLASS - can be used for class only.)
+//Retention Policy:- unit what the annotation should be active ( * if RetentionPolicy class :- it will go till JVM)
+
+
 @CricketPlayer(Country = "India",run = 1000)
 class  virhatKholi{
     private int Innnings;
