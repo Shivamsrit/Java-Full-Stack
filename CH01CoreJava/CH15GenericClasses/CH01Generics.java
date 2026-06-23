@@ -10,10 +10,7 @@ package CH01CoreJava.CH15GenericClasses;
  */
 
 /*
-  Generics:- Generics was introduce in JDK 1.5V to Provide Type-Saftey and to resolve Type Casting Problem.
-
-
-
+  Generics:- Generics was introduce in JDK 1.5V to Provide Type-Saftey and to resolve Type Casting Problem
 */
 
 import java.util.ArrayList;
@@ -80,4 +77,10 @@ public class CH01Generics {
             taaki tumhe manually (String) likhne ki zarurat na pade.
 
  */
+
+// 2. Custom created Generics class
+
+
+
+
 
