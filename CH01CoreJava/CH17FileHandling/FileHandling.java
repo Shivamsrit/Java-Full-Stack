@@ -1,4 +1,4 @@
-ackage CH17FileHandling;
+package CH17FileHandling;
 
 /*
  * Understanding File Handling in Java
