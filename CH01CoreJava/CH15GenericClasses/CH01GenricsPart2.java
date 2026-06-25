@@ -22,7 +22,7 @@ class Gen <T>{
 // 2. Fix with Generic Class accept only specific type
             // * X --> If X is class type, either it will accept X type or its Child Type.
             // * X ---> if X is interface , we can pass either X or its implementation class.
- class Test<T extends Number>{              // Number --> interface
+ class Test<T extends Number>{              // Number --> Class
                 T obj;
 
                 // parameterized constructor
@@ -37,6 +37,9 @@ class Gen <T>{
                     return obj;
                 }
 }
+class Test1 <T extends Runnable> {      // Runnable --> Interface
+
+}
 
 public class CH01GenricsPart2 {
     public static void main(String[] args) {
@@ -48,5 +51,6 @@ public class CH01GenricsPart2 {
         Test <Integer> obj = new Test<Integer>(10);
         obj.show();
         System.out.println("! 2st Generic class"+obj.getObj());
+
     }
 }
