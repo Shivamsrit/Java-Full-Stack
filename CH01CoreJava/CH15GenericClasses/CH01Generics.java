@@ -4,9 +4,9 @@ package CH01CoreJava.CH15GenericClasses;
 /*
         1. Generics
         2. Comparable vs Comparator
-        3.Stream Api
+        3. Stream Api
         4. Lamda Expression in Collection
-        5.Jodha Api (Date&Time)
+        5. Jodha Api (Date&Time)
  */
 
 /*
