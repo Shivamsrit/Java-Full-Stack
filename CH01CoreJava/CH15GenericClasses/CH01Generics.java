@@ -24,7 +24,6 @@ public class CH01Generics {
         String ob1 = ob[1];  // No need of Type Casting
 
 
-
         // Collection --> type safety and Type Casting is not require.
         ArrayList al = new ArrayList();
         al.add("Sachin");
