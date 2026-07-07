@@ -1,7 +1,6 @@
 package CH01CoreJava.CH15GenericClasses;
 
 
-
 /*
  * Understanding Functional Interfaces in Java
  */
@@ -31,6 +30,7 @@ package CH01CoreJava.CH15GenericClasses;
  * - Lambda expression support
  * - Cleaner, more readable code
  * - Better support for parallel processing
+ */
 
 
 public class FunctionalInterface {
@@ -49,23 +49,34 @@ public class FunctionalInterface {
  *  9. Predicate<T>: Testing (T → boolean)
  *  10. UnaryOperator<T>: Same type transformation (T → T)
  *
-* Common Built-in Functional Interfaces:
-        * ┌─────────────────────┬─────────────────┬──────────────────┐
-        * │    Interface        │   Method        │   Description    │
-        * ├─────────────────────┼─────────────────┼──────────────────┤
-        * │ Function<T,R>       │ R apply(T)      │ T → R            │
-        * │ Consumer<T>         │ void accept(T)  │ T → void         │
-        * │ Supplier<T>         │ T get()         │ void → T         │
-        * │ Predicate<T>        │ boolean test(T) │ T → boolean      │
-        * │ UnaryOperator<T>    │ T apply(T)      │ T → T            │
-        * │ BinaryOperator<T>   │ T apply(T,T)    │ (T,T) → T        │
-        * │ BiFunction<T,U,R>   │ R apply(T,U)    │ (T,U) → R        │
-        * │ BiConsumer<T,U>     │ void accept(T,U)│ (T,U) → void     │
-        * │ BiPredicate<T,U>    │ boolean test(T,U)│ (T,U) → boolean │
-        * └─────────────────────┴─────────────────┴──────────────────┘
-        *
-        * Method Reference Types:
+ * Common Built-in Functional Interfaces:
+ * ┌─────────────────────┬─────────────────┬──────────────────┐
+ * │    Interface        │   Method        │   Description    │
+ * ├─────────────────────┼─────────────────┼──────────────────┤
+ * │ Function<T,R>       │ R apply(T)      │ T → R            │
+ * │ Consumer<T>         │ void accept(T)  │ T → void         │
+ * │ Supplier<T>         │ T get()         │ void → T         │
+ * │ Predicate<T>        │ boolean test(T) │ T → boolean      │
+ * │ UnaryOperator<T>    │ T apply(T)      │ T → T            │
+ * │ BinaryOperator<T>   │ T apply(T,T)    │ (T,T) → T        │
+ * │ BiFunction<T,U,R>   │ R apply(T,U)    │ (T,U) → R        │
+ * │ BiConsumer<T,U>     │ void accept(T,U)│ (T,U) → void     │
+ * │ BiPredicate<T,U>    │ boolean test(T,U)│ (T,U) → boolean │
+ * └─────────────────────┴─────────────────┴──────────────────┘
+ *
+ * Method Reference Types:
  *  - Static method: ClassName::methodName
  *  - Instance method (specific): instance::methodName
  *  - Instance method (arbitrary): ClassName::methodName
  *  - Constructor: ClassName::new
+ *
+ * Best Practices:
+ *  - Use @FunctionalInterface for custom functional interfaces
+ *  - Prefer method references over lambda expressions when possible
+ *  - Use built-in functional interfaces instead of creating custom ones
+ *  - Chain functional interfaces for complex operations
+ *  - Consider exception handling with functional interfaces
+ *  - Use appropriate specialized interfaces (IntFunction, ToIntFunction, etc.)
+ *  - Keep lambda expressions short and readable
+ *  - Avoid side effects in pure functions
+ */

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CH01CoreJava/CH01CoreJava.iml" filepath="$PROJECT_DIR$/CH01CoreJava/CH01CoreJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java Full stack.iml" filepath="$PROJECT_DIR$/Java Full stack.iml" />
     </modules>
   </component>
