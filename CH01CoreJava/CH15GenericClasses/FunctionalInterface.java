@@ -64,3 +64,8 @@ public class FunctionalInterface {
         * │ BiPredicate<T,U>    │ boolean test(T,U)│ (T,U) → boolean │
         * └─────────────────────┴─────────────────┴──────────────────┘
         *
+        * Method Reference Types:
+ *  - Static method: ClassName::methodName
+ *  - Instance method (specific): instance::methodName
+ *  - Instance method (arbitrary): ClassName::methodName
+ *  - Constructor: ClassName::new
