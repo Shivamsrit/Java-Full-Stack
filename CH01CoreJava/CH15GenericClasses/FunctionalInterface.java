@@ -48,4 +48,19 @@ public class FunctionalInterface {
  *  8. Supplier<T>: Factory/Generation (void → T)
  *  9. Predicate<T>: Testing (T → boolean)
  *  10. UnaryOperator<T>: Same type transformation (T → T)
- */
+ *
+* Common Built-in Functional Interfaces:
+        * ┌─────────────────────┬─────────────────┬──────────────────┐
+        * │    Interface        │   Method        │   Description    │
+        * ├─────────────────────┼─────────────────┼──────────────────┤
+        * │ Function<T,R>       │ R apply(T)      │ T → R            │
+        * │ Consumer<T>         │ void accept(T)  │ T → void         │
+        * │ Supplier<T>         │ T get()         │ void → T         │
+        * │ Predicate<T>        │ boolean test(T) │ T → boolean      │
+        * │ UnaryOperator<T>    │ T apply(T)      │ T → T            │
+        * │ BinaryOperator<T>   │ T apply(T,T)    │ (T,T) → T        │
+        * │ BiFunction<T,U,R>   │ R apply(T,U)    │ (T,U) → R        │
+        * │ BiConsumer<T,U>     │ void accept(T,U)│ (T,U) → void     │
+        * │ BiPredicate<T,U>    │ boolean test(T,U)│ (T,U) → boolean │
+        * └─────────────────────┴─────────────────┴──────────────────┘
+        *
