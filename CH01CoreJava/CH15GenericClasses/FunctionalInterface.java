@@ -35,3 +35,17 @@ package CH01CoreJava.CH15GenericClasses;
 
 public class FunctionalInterface {
 }
+
+/*
+ * Key Points:
+ *  1. Functional Interface has exactly one abstract method (SAM)
+ *  2. Can have multiple default and static methods
+ *  3. @FunctionalInterface annotation provides compile-time validation
+ *  4. Enables lambda expressions and method references
+ *  5. Built-in functional interfaces in java.util.function package
+ *  6. Function<T,R>: Transformation (T → R)
+ *  7. Consumer<T>: Side effects (T → void)
+ *  8. Supplier<T>: Factory/Generation (void → T)
+ *  9. Predicate<T>: Testing (T → boolean)
+ *  10. UnaryOperator<T>: Same type transformation (T → T)
+ */
