@@ -24,6 +24,7 @@ enum Day {
     SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY;     // By defult Static, Final
     // SUNDAY --> public static final Day Sunday = new Day();
 
+
     Day(){
         System.out.println("Constructor is called");
     }
